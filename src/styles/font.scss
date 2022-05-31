@@ -1,0 +1,9 @@
+h1 {
+  color: var(--primary);
+}
+
+a {
+  &:link {
+    padding: 0.25rem;
+  }
+}
