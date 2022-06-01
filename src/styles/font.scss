@@ -1,9 +1,21 @@
+@font-face {
+  font-family: "ParkYongJun";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/ParkYongJun.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1 {
   color: var(--primary);
+  font-family: "ParkYongJun";
 }
 
 a {
   &:link {
     padding: 0.25rem;
   }
+}
+
+.text-pyj {
+  font-family: "ParkYongJun";
 }

@@ -24,7 +24,7 @@ export const api = {
   async getItems(body) {
     try {
       const ref = collection(db, "happiness");
-      const querySnapshot = await getDocs(ref, body);
+      const querySnapshot = await getDocs(ref);
 
       const data = [];
       if (querySnapshot) {

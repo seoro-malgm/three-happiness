@@ -112,7 +112,7 @@ export const Home = () => {
       <Container maxWidth="md">
         <div className="form-wrap">
           <header>
-            <h2>하루의 세가지 복, 삼복</h2>
+            <h2 className="text-pyj">하루의 세가지 복, 삼복</h2>
             <span>매일 기분좋았던 일, 행복했던 일을 세 가지씩 적어봅시다!</span>
           </header>
           <SubmitForm />
